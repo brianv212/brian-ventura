@@ -1,0 +1,7 @@
+.about-me-main {
+    display: flex;
+    flex-direction: row;
+    > * {
+        width: 33.33%;
+    }
+}
