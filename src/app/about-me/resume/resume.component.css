@@ -1,0 +1,14 @@
+.resume-main {
+    background-color: #222220;
+    border-radius: 10px;
+    height: 70vh;
+}
+
+.resume-carousel {
+    height: 90%;
+}
+
+.resume-carousel-item {
+    height: 500px;
+    overflow-y: scroll;
+}
