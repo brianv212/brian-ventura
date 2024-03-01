@@ -1,0 +1,41 @@
+.bio {
+    background-color: #222220;
+    border-radius: 10px;
+    margin: 0 1rem 0 1rem;
+}
+
+.bio-text-area {
+    margin: 1rem;
+}
+
+.bio-externals {
+    text-align: center;
+    > sl-icon {
+        height: 2rem;
+        width: 2rem;
+    }
+    > sl-icon:not(:last-child) {
+        margin-right: 1rem;
+    }
+    > sl-icon:hover {
+        color: #086A07;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+}
+
+.bio-bar {
+    margin: 0 1rem 0 1rem;
+}
+
+.image-container {
+    width: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    > img {
+        width: 100%;
+        border-radius: 50%;
+        margin-top: 2rem;
+    }
+}
