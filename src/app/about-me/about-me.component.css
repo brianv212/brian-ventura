@@ -23,3 +23,21 @@
 .about-me-right {
     width: 55%;
 }
+
+@media screen and (max-width: 1000px) {
+    .about-me-main {
+        display: none;
+    }
+    .about-me-secondary {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .about-me-main {
+        display: block;
+    }
+    .about-me-secondary {
+        display: none;
+    }
+}
