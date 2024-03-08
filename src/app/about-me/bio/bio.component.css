@@ -1,35 +1,17 @@
 .bio-main {
-    display: flex;
-    flex-direction: row;
     height: 70%;
 }
 
 .bio {
     background-color: #222220;
     border-radius: 10px;
-    margin: 1rem;
+    margin: -1rem 1rem 0rem 1rem;
     overflow-y: scroll;
-    width: 50%;
+    height: 45%;
 }
 
 .bio-text-area {
-    margin: 1rem;
-}
-
-.bio-externals {
-    text-align: center;
-    > sl-icon {
-        height: 2rem;
-        width: 2rem;
-    }
-    > sl-icon:not(:last-child) {
-        margin-right: 1rem;
-    }
-    > sl-icon:hover {
-        color: #086A07;
-        transition: 0.5s;
-        cursor: pointer;
-    }
+    margin: 3rem;
 }
 
 .bio-bar {

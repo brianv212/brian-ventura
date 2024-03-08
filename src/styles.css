@@ -1,6 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 html, body {
     font-family: 'Barlow';
-    background-color: #151320;
+    /* background-color: #151320; */
+    background-image: url("./assets/images/background.jpg");
+    background-size: 100% 102%;
+    background-repeat: no-repeat;
+    background-position: center center;
     color: white;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent
 }
