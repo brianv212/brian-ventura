@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'brian-ventura';
+
+  goToLink(url: string){
+    window.open(url, "_blank");
+  }
 }

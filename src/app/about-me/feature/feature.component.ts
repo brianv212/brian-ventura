@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./feature.component.css']
 })
 export class FeatureComponent {
-
+  goToLink(url: string){
+    window.open(url, "_blank");
+  }
 }
