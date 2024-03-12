@@ -1,19 +1,14 @@
 .resume-main {
     background-color: #222220;
     border-radius: 10px;
-    height: 97.5%;
+    height: 95.5%;
     margin: 1rem;
-    padding-bottom: .25rem;
 }
 
-.resume-carousel {
-    height: 80%;
-}
-
-.resume-carousel-item {
-    height: 500px;
+.resume-container {
+    margin: 2rem 5rem;
+    height: 85%;
     overflow-y: scroll;
-    text-align: left;
 }
 
 .resume {
