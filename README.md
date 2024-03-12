@@ -1,2 +1,2 @@
 # BrianVentura
-ng build --output-path docs --base-href /brian-ventura/
+ng build --output-path docs --base-href https://brianv212.github.io/brian-ventura/
